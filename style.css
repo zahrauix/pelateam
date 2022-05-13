@@ -1,0 +1,701 @@
+@font-face {
+    font-family: 'Specify';
+    src:url('Fonts/SpecifyPERSONAL-ExpBold.eot') format('eot'),
+        url('Fonts/SpecifyPERSONAL-ExpBold.ttf')  format('ttf'),
+        url('Fonts/SpecifyPERSONAL-ExpBold.woff') format('woff');
+   
+ 
+}
+
+@font-face{
+    font-family: 'PlusJakarta';
+    src: 
+         url('Fonts/PlusJakartaDisplay-Regular.otf')  format('otf'),
+         url('Fonts/PlusJakartaSans-Regular.woff')  format('woff'),
+         url('Fonts/PlusJakartaSans-Regular.woff2')  format('woff2');
+}
+
+
+
+             
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     /* border: #2B4DFF solid 1px;  */
+}
+
+:root{
+    --bodyColor:#020516;
+    --mainWhite:#fff;
+    --mainBlue:#2B4DFF;
+    
+}
+
+
+body{
+    font-family: 'Specify','PlusJakarta';
+    background-color: var(--bodyColor);
+    color: var(--mainWhite);
+    overflow-y: hidden;
+    overflow-x: hidden;
+    
+    
+  
+}
+
+a {
+    text-decoration: none;
+  }
+  
+
+.container{
+    display: flex;
+    margin: auto;
+    padding: 0 8%;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+   
+   
+      
+}
+
+.row {
+  display: flex;
+}
+
+.header{
+   
+  width: 100%;
+  height:30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header .logo{
+ 
+  justify-content: center;
+  align-items: center;
+}
+
+
+.HeroSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40vh;
+   
+}
+
+.HeroSection .HeroContent{
+    max-width: 1440px;
+    justify-content:center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    margin-top: 80px;
+    margin: auto;
+    
+}
+
+
+.HeroSection .HeroContent .Hello {
+   font-size: 24px;
+   letter-spacing: .5px;
+   font-family: 'PlusJakarta';
+    
+}
+
+.HeroSection .HeroContent .Hero-title {
+   
+    font-size:5em;
+    font-family: 'Specify';
+    padding-top: 16px;
+    width: 100%;
+          
+ }
+
+ .HeroContactUs{
+   
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    padding-top: 80px;
+    margin: auto;
+   
+}
+
+
+.HeroContactUs .w-btn{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+  
+  
+}
+
+
+.HeroContactUs .w-des{
+
+  display: flex;
+  align-items: center;
+  
+}
+
+
+ .HeroSection .HeroContent .HeroContactUs .description{
+     font-size: 20px;
+     line-height: 30px;
+     font-family: 'PlusJakarta';
+     color: rgba(255, 255, 255, 0.32);
+     
+
+ }
+
+
+ .HeroSection .HeroContent  .HeroContactUs  .HeroBtn{
+     background-color: var(--mainBlue);
+     color: var(--mainWhite);
+     width: 338px;
+     height: 72px;
+     border-radius: 36px;
+     border: 0px;
+     font-size: 20px;
+     display: flex;
+     align-items: center;
+     padding-left: 4px;
+     cursor: pointer !important; 
+       
+ }
+
+
+ .HeroSection .HeroContent .HeroBtn .btnIcon{
+     background-color: rgba(255, 255, 255, 0.418);
+     width: 64px;
+     height: 64px;
+     border-radius: 50px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     
+     
+ }
+
+ .HeroSection .HeroContent .HeroBtn .btnText{
+     padding-left: 24px;
+ }
+
+ .footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'PlusJakarta';
+   
+    margin-top: 180px;
+
+
+   
+    
+}
+
+.footer .footerContent{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    max-width:1300px;
+    
+    
+  
+ }
+
+ .footer .footerContent .social ul{
+    display: flex;
+ 
+    width: 100%;
+}
+
+.footer .footerContent .social ul li{
+   display: flex;
+   text-decoration: none;
+   padding: 0 10px;
+   
+  
+
+}
+
+.footer .footerContent .copy-right{
+   font-size: 16px;
+   color: rgba(255, 255, 255, 0.331);
+
+}
+
+/* Respnsive code */
+
+/*1291 Start */
+
+
+@media screen and (max-width: 1291px){
+
+  .HeroSection .HeroContent .Hero-title {
+    font-size: 3.90em;
+
+  }
+
+  .HeroContactUs {
+       
+    flex-wrap: wrap;
+  
+  }
+
+  .w-des {
+ 
+    width:100% ;
+   
+   }
+
+   .w-btn {
+   
+    margin-top: 32px;
+  }
+
+     
+}
+/*1291 End */
+
+
+/*1200 Start */
+
+@media screen and (max-width: 1200px){
+
+  
+    .w-des {
+     
+     width:100% ;
+    
+    }
+
+}
+
+/*1200 End */
+
+/*1024 Start */
+
+@media screen and (max-width: 1024px){
+
+    .HeroSection .HeroContent .Hero-title {
+        font-size: 3.5em;
+        font-family: 'Specify';
+        padding-top: 16px;
+      }
+
+      .description {
+        font-size: 18px;
+        letter-spacing: -0.5px;
+      }
+
+      .br{
+        display: none;
+    }
+
+    /* .HeroSection .HeroContent .HeroBtn .btnText {
+        padding: 0px 44px 0 24px;
+      } */
+
+
+}
+/*1024 End */
+
+/*920 Start */
+
+@media screen and (max-width: 920px){
+
+  .HeroSection .HeroContent .Hero-title {
+    font-size: 3em;
+    padding-top: 16px;
+  }
+
+  .HeroSection .HeroContent .HeroBtn {
+       
+    width: 338px;
+    height: 72px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    padding-left: 4px;
+   margin: auto;
+  }
+
+ .footer .footerContent {
+       
+    flex-wrap: wrap;
+    justify-content:space-between;
+    
+ }
+
+ .footer{
+  margin-top: 120px;
+ }
+
+.IconSize{
+  width: 24px;
+}
+
+.IconSize2{
+ width: 65px;
+ height: 23px;
+}
+      
+}
+/*920 End */
+
+/*800 Start */
+
+@media screen and (max-width: 800px){
+
+    .HeroSection .HeroContent {
+        margin-top: 20px;
+      }
+
+    .HeroSection .HeroContent .Hero-title {
+        font-size: 2.5em;
+        font-family: 'Specify';
+        padding-top: 16px;
+      }
+
+      .HeroContactUs {
+       
+        flex-wrap: wrap;
+      
+      }
+
+      .footer .footerContent {
+       
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+       
+      }
+
+}
+/*800 Start */
+
+
+/*720 Start */
+
+@media screen and (max-width: 720px){
+    .HeroSection .HeroContent .Hero-title {
+        font-size: 2em;
+        padding-top: 16px;
+    }
+      .footer .footerContent {
+       
+        flex-wrap: wrap;
+        justify-content:center;
+        align-items: center;
+       
+      }
+      .social{
+        padding-bottom: 24px;
+      }
+
+}
+/*720 End */
+
+/*600 Start */
+
+@media screen and (max-width: 600px){
+
+    .HeroSection .HeroContent .Hero-title{
+        font-size: 1.9em;
+       }
+
+    .HeroContactUs {
+        justify-content: space-between;
+       width: 100%;
+      }
+
+      .HeroContactUs {
+        
+        padding-top: 47px;
+        padding-bottom: 30px;
+      }
+
+      .footer .footerContent {
+       
+        flex-wrap: wrap;
+        justify-content:center;
+       
+     }
+
+
+     .HeroSection .HeroContent .HeroContactUs .HeroBtn {
+       font-size: 22px;
+     }
+
+     .HeroSection .HeroContent .HeroContactUs .HeroBtn {
+      width: 364px;
+      height: 72px;
+     }
+
+}
+/*600 Start */
+
+/*570 Start */
+
+@media screen and (max-width: 570px){
+
+
+    .HeroSection .HeroContent .Hero-title {
+        font-size: 1.6em;
+       
+    }
+    .HeroSection .HeroContent .HeroContactUs .description {
+        font-size: 18px;
+    }
+
+
+    
+   
+
+    .footer{
+      margin-top: 106px;
+     }
+    
+
+}
+
+/*570 End */
+
+/*428 Start */
+
+@media screen and (max-width: 428px){
+
+ .HeroSection .HeroContent{
+   justify-content: center;
+ }
+
+   .HeroSection .HeroContent .Hero-title {
+    font-size: 1.6em;
+   }
+
+
+  .HeroSection .HeroContent .Hello {
+   
+    font-size: 16px;
+      
+ }
+
+
+ 
+ .social{
+     justify-content: center;
+     align-items: center;
+     margin: auto;
+     width: 100%;
+ }
+
+ .social ul {
+    align-items: center;
+    justify-content: center;
+  }
+
+ .IconSize{
+     width: 24px;
+ }
+
+ .IconSize2{
+    width: 65px;
+    height: 23px;
+}
+
+.br{
+    display: none;
+}
+
+
+}
+
+/*428 End */
+
+/*400 Start */
+
+
+@media screen and (max-width: 400px){
+  .HeroSection .HeroContent .Hero-title {
+    font-size: 1.5em;
+   }
+
+   .IconSize2 {
+    width: 63px;
+    height: 21px;
+  }
+
+  .IconSize {
+    width: 20px;
+   
+  }
+
+
+
+}
+
+/*400 End */
+ 
+/*384 Start */
+
+@media screen and (max-width: 384px){
+
+      .HeroSection .HeroContent .HeroContactUs .HeroBtn {
+        font-size: 19px;
+       
+    }
+
+    .container {
+        display: flex;
+       padding: 0 5%;
+    }
+       
+}
+
+/*384 End */
+
+/*375 Start */
+
+
+@media screen and (max-width: 375px){
+  
+  .HeroSection .HeroContent .Hero-title {
+    font-size: 1.4em;
+  }
+
+
+  .HeroContactUs {
+   
+    padding-top: 40px;}
+  
+
+
+ .HeroSection .HeroContent .HeroContactUs .description {
+    font-size: 16px;
+  }
+
+  .HeroSection .HeroContent {
+    margin-top: 8px;
+  }
+      
+           
+     
+  .HeroSection .HeroContent .HeroContactUs .HeroBtn {
+    font-size: 20px;
+  }
+
+  .HeroSection .HeroContent .HeroContactUs .HeroBtn {
+   width: 338px;
+   height: 72px;
+  }
+
+
+
+  
+
+ 
+}
+
+/*375 End */
+
+/*350 Start */
+
+
+@media screen and (max-width: 350px){
+
+  .Hello{
+    padding: 0 8%;
+    
+  }
+
+
+  .HeroSection .HeroContent .Hero-title {
+    padding: 0 8%;
+  }
+
+  .HeroContactUs .w-des {
+    padding: 0 8%;
+  }
+
+  
+  .w-btn {
+    width: 100%;
+  }
+
+  .HeroSection .HeroContent .HeroContactUs .HeroBtn {
+    background-color: var(--mainBlue);
+    color: var(--mainWhite);
+    width: 280px;
+    height: 64px;
+   
+    font-size: 16px;
+    
+    padding-left: 3px;
+  }
+
+
+  .HeroSection .HeroContent .HeroBtn .btnIcon {
+    
+    width: 56px;
+    height: 56px;
+   
+  }
+}
+
+
+/*350 End */
+
+/*320 Start */
+
+@media screen and (max-width: 320px){
+
+  .header {
+    
+    height: 24vh;
+  }
+
+  .HeroSection .HeroContent .Hello {
+    font-size: 14px;
+  }
+
+  .HeroContactUs {
+    padding-top: 16px;
+  }
+
+  .HeroSection .HeroContent .HeroContactUs .description {
+    font-size: 12px;
+  }
+
+  .footer .footerContent .copy-right {
+    font-size: 12px;
+    
+  }
+
+  .social {
+    padding-bottom: 10px;
+  }
+}
+
+/*320 End */
+
+
+
+       
+
+   
+
+
+
+
