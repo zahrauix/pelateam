@@ -25,6 +25,11 @@
     box-sizing: border-box;
      /* border: #2B4DFF solid 1px;  */
 }
+.diable-selection{
+  -webkit-user-drag: none;
+  -moz-user-select: none;
+  -ms-user-select:none;
+}
 
 :root{
     --bodyColor:#020516;
@@ -40,7 +45,7 @@ body{
     color: var(--mainWhite);
     overflow-y: hidden;
     overflow-x: hidden;
-    height: 100vh;
+   
     
     
   
