@@ -136,9 +136,16 @@ a {
   align-items: center;
   justify-content: center;
  
+    
+ 
   
   
 }
+
+
+
+
+
 
 
 .HeroContactUs .w-des{
@@ -171,7 +178,15 @@ a {
      align-items: center;
      padding-left: 4px;
      cursor: pointer !important; 
+     -webkit-transition: all .15s ease-in-out;
+     transition: all .15s ease-in-out;
        
+ }
+
+ .HeroSection .HeroContent  .HeroContactUs  .HeroBtn:hover{
+  box-shadow: 0 0 10px 0 #2B4DFF inset, 0 0 20px 2px #2B4DF3;
+  border: 3px solid #2B4DFF;
+
  }
 
 
@@ -691,6 +706,9 @@ a {
 }
 
 /*320 End */
+
+
+
 
 
 
