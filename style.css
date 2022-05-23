@@ -1,3 +1,4 @@
+@import "reset.css";
 @font-face {
     font-family: 'Specify';
     src:url('Fonts/SpecifyPERSONAL-ExpBold.eot') format('eot'),
@@ -20,8 +21,7 @@
              
 
 *{
-    margin: 0;
-    padding: 0;
+    
     box-sizing: border-box;
      /* border: #2B4DFF solid 1px;  */
 }
@@ -40,7 +40,7 @@ body{
     color: var(--mainWhite);
     overflow-y: hidden;
     overflow-x: hidden;
-    height: 100vh;
+   
     
     
   
@@ -185,6 +185,7 @@ a {
  .HeroSection .HeroContent  .HeroContactUs  .HeroBtn:hover{
   box-shadow: 0 0 10px 0 #2B4DFF inset, 0 0 20px 2px #2B4DF3;
   border: 3px solid #2B4DFF;
+  
 
  }
 
@@ -458,8 +459,9 @@ a {
      .HeroSection .HeroContent .HeroContactUs .HeroBtn {
       width: 364px;
       height: 72px;
+    
      }
-
+    
 }
 /*600 Start */
 
