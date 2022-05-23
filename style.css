@@ -40,6 +40,7 @@ body{
     color: var(--mainWhite);
     overflow-y: hidden;
     overflow-x: hidden;
+    height: 100vh;
     
     
   
@@ -47,6 +48,8 @@ body{
 
 a {
     text-decoration: none;
+    
+   
   }
   
 
@@ -135,23 +138,18 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
- 
-    
+  border-radius: 36px;
  
   
   
 }
 
 
-
-
-
-
-
 .HeroContactUs .w-des{
 
   display: flex;
   align-items: center;
+  
   
 }
 
@@ -166,7 +164,7 @@ a {
  }
 
 
- .HeroSection .HeroContent  .HeroContactUs  .HeroBtn{
+.HeroBtn{
      background-color: var(--mainBlue);
      color: var(--mainWhite);
      width: 338px;
@@ -180,6 +178,7 @@ a {
      cursor: pointer !important; 
      -webkit-transition: all .15s ease-in-out;
      transition: all .15s ease-in-out;
+     
        
  }
 
